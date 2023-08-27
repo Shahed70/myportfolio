@@ -218,10 +218,9 @@ main {
 }
 .resume-content-container {
   border-bottom: 1px solid #d1d1d1;
-
 }
-.resume-content-container:last-child{
-  border:none;
+.resume-content-container:last-child {
+  border: none;
 }
 .resume-title {
   font-size: 30px;
@@ -229,7 +228,6 @@ main {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 30px;
-  
 }
 
 .resume-subtitle {
@@ -256,8 +254,44 @@ main {
   margin-bottom: 25px;
 }
 
-.download-cv{
-  margin: 20px auto; 
+.download-cv {
+  margin: 20px auto;
   display: block;
 }
 /* Resume section style */
+
+/* Contact section style */
+
+.contact-section {
+  background: #fff8f3;
+  padding: 130px 0px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 100px;
+  margin: 0 150px;
+}
+
+.contact-container .section-title,
+.section-description {
+  text-align: left;
+}
+
+.left-section a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.right-section input[type="text"], input[type="email"], textarea {
+  border-radius: 5px;
+  background:  #fff;
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+
+
+/* Contact section style */
