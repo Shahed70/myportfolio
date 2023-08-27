@@ -1,0 +1,151 @@
+:root {
+  --primary-color: #fd6e0a;
+  --bacground-color: #fff8f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+header {
+  background-color: var(--bacground-color);
+  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* Header and navigation style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  padding: 50px 0px;
+}
+.nav-logo {
+  font-weight: 800;
+  font-size: 45px;
+}
+.o {
+  color: var(--primary-color);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header and navigation style */
+
+/* Hero banner style */
+
+.hero-banner {
+  display: flex;
+  margin: 0 200px;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 80px;
+  font-weight: 700;
+}
+.banner-subtitle {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+/* Hero banner style */
+
+/* main style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* main style */
+
+/* About section style */
+.about {
+  margin-top: 130px;
+  border-radius: 5px;
+  background: var(--bacground-color);
+  padding: 130px 150px;
+}
+
+.section-title {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 30px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about .info-description {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* About section style */
