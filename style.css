@@ -1,7 +1,6 @@
 :root {
   --primary-color: #fd6e0a;
   --bacground-color: #fff8f3;
- 
 }
 
 * {
@@ -11,11 +10,15 @@
 }
 
 /* Global */
-.mb{
+.mb {
   margin-bottom: 130px;
 }
-.mt{
+.mt {
   margin-top: 130px;
+}
+
+.mb-1 {
+  margin-bottom: 110px;
 }
 
 /* Global */
@@ -206,3 +209,55 @@ main {
   line-height: 28px;
 }
 /* Mywork section style */
+
+/* Resume section style */
+
+.content-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-content-container {
+  border-bottom: 1px solid #d1d1d1;
+
+}
+.resume-content-container:last-child{
+  border:none;
+}
+.resume-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+  
+}
+
+.resume-subtitle {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.resume-date {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.resume-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.download-cv{
+  margin: 20px auto; 
+  display: block;
+}
+/* Resume section style */
